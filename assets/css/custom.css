@@ -1,8 +1,15 @@
-/* 
-/* 
-/*  custom.css
-/*
-/*  If not using Gulp and Sass, add your custom CSS below then include it
-/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
-/*
-*/
+.google-maps {
+    position: relative;
+    padding-bottom: 50%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
