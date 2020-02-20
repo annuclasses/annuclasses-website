@@ -13,3 +13,7 @@
     height: 100% !important;
 }
 
+.highlight-scholarship {
+  display: inline;
+  background: rgba(0, 0, 100); 
+}
